@@ -42,7 +42,7 @@ pre-commit:
 
 post-merge:
   scripts:
-    deploy-frontend:
+    deploy-astro:
       tags:
         - frontend
         - ci/cd

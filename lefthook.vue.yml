@@ -40,7 +40,7 @@ pre-commit:
 
 post-merge:
   scripts:
-    deploy-frontend:
+    deploy-vue:
       tags:
         - frontend
         - ci/cd
