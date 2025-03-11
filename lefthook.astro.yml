@@ -48,6 +48,6 @@ post-merge:
         - frontend
         - ci/cd
         - build
-      only:
-        - ref: main
+      # only:
+      #   - ref: main
       runner: bash
