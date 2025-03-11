@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-echo "Deploy script for frontend" 
+echo "Deploy script for Astro frontend" 
 dist_client=./dist/client
 backup_client=./backup/client
 
