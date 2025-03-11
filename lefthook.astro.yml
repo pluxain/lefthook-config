@@ -10,11 +10,12 @@ commit-msg:
 
 pre-push:
   jobs:
-    - name: type check
-      tags:
-        - frontend
-        - typecheck
-      run: npx tsc -p tsconfig.json --noEmit --pretty
+    # Note: Astro has an astro check command which is included as a step command before build
+    # - name: type check
+    #   tags:
+    #     - frontend
+    #     - typecheck
+    #   run: npx tsc -p tsconfig.json --noEmit --pretty
     - name: build
       tags:
         - frontend
