@@ -48,6 +48,7 @@ post-merge:
         - frontend
         - ci/cd
         - build
+      # set the filter on client repos
       # only:
       #   - ref: main
       runner: bash
